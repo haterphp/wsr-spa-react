@@ -1,0 +1,13 @@
+.card {
+    padding: 25px;
+    border: solid 1px #000;
+}
+
+.card:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.card .title {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
